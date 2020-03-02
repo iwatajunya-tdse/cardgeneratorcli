@@ -105,8 +105,12 @@ def main(argv):
     fp = os.path.join(dirname, "input.csv")
     title = sys.argv[1]
     description = sys.argv[2]
+    if len(sys.argv) == 4:
+        encoding = sys.argv[3]
+    else:
+        encoding = "utf-8"
 
-    questions = pd.read_csv(fp, encoding = "utf-8") # change to ANSI if necessary
+    questions = pd.read_csv(fp, encoding = encoding)
 
     card = Card(title, description)
 
