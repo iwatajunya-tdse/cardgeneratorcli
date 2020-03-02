@@ -106,7 +106,7 @@ def main(argv):
     title = sys.argv[1]
     description = sys.argv[2]
 
-    questions = pd.read_csv(fp, encoding = "ANSI") # change to utf-8 if necessary
+    questions = pd.read_csv(fp, encoding = "utf-8") # change to ANSI if necessary
 
     card = Card(title, description)
 
