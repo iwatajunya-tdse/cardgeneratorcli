@@ -13,3 +13,6 @@ encoding (optional): デフォルトは"utf-8"
 3. 同ディレクトリ上にoutput.jsonが出力されていることを確認し、ファイル内の文字列をCognigyのノード内にコピー
 4. Webchat ConfigurationでAdaptive Cardsのプラグインが追加されていることを確認したうえでWebchatを実行し、Adaptive Cardが適切に表示されているか確認
 
+2020-03-02 現在:
+- Type: "Choice", "Text" 
+

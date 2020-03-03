@@ -1,4 +1,4 @@
 Type,Question,Input ID,Multi-Selection,Compact,Default,Placeholder,Choice1_Title,Choice1_Value,Choice2_Title,Choice2_Value,Choice3_Title,Choice3_Value,Choice4_Title,Choice4_Value,Choice5_Title,Choice5_Value
-Choice,満足度,q1,FALSE,TRUE,,,満足,100,やや満足,50,不満,0,,,,
+Choice,満足度,q1,FALSE,TRUE,,選択してください,満足,100,やや満足,50,不満,0,,,,
 Choice,関心のあるトピック,q2,TRUE,FALSE,,,AI,ai,自然言語処理,nlp,業務効率化,productivity,,,,
-Text,要望,q3,,,,,,,,,,,,,,
+Text,要望,q3,,,,ご要望を入力してください,,,,,,,,,,
